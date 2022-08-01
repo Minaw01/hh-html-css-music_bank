@@ -39,16 +39,16 @@ nav div ul {
   list-style: none;
 }
 
-nav div ul li a{
+nav div ul li a {
   padding: 1rem;
   border-radius: 5px;
   text-decoration: none;
   font-size: 1.2rem;
   color: #fff;
+  transition: all ease-in 0.1s;
 }
 
 nav div ul li a:hover {
-  transition: all ease-in 0.1s;
   background: #fff;
   color: #000;
 }
@@ -250,6 +250,25 @@ section#plans ul li .body p {
   font-size: 1.2rem;
   text-align: center;
   padding: 1rem;
+}
+
+section#plans ul li .body a {
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #cacaca;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all ease-in 0.2s;
+}
+
+section#plans ul li .body a:hover {
+  background: #ff8000e6;
+  color: #fff;
 }
 
 section#plans ul li .body p:not(:last-child) {
