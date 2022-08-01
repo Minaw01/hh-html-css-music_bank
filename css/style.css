@@ -48,7 +48,8 @@ nav div ul li a {
   transition: all ease-in 0.1s;
 }
 
-nav div ul li a:hover {
+nav div ul li a:hover,
+.active {
   background: #fff;
   color: #000;
 }
@@ -298,5 +299,171 @@ footer {
 
 footer p {
   font-size: 1.2rem;
+  text-align: center;
+}
+
+
+
+/* Main Login */
+main#login {
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/landing.jpg') no-repeat center center /cover;
+}
+
+main#login .content {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  padding: 3rem;
+  height: 90%;
+}
+
+main#login .content div {
+  width: 50%;
+}
+
+main#login .content div:first-child h1,
+main#login .content div:first-child h2 {
+  text-align: center;
+}
+
+main#login .content div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main#login .content div:last-child form h3 {
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+main#login .content div:last-child form {
+  background: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+  width: 50%;
+  margin: auto;
+}
+
+main#login .content div:last-child form label,
+main#login .content div:last-child form label span {
+  display: block;
+}
+
+main#login .content div:last-child form label span {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+main#login .content div:last-child form input:not([type="submit"]) {
+  width: 100%;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding: 0.4rem;
+  border: 1px solid #000;
+}
+
+main#login .content div:last-child form input[type="submit"] {
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background: #ff8000e6;
+  color: #fff;
+  padding: 0.5rem;
+  border: 2px solid #ff8000e6;
+  border-radius: 5px;
+  transition: all ease-in 0.1s;
+}
+
+main#login .content div:last-child form input[type="submit"]:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+/* Register */
+main#register {
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/landing.jpg') no-repeat center center /cover;
+}
+
+main#register .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main#register .content div {
+  width: 50%;
+}
+
+main#register .content div:first-child form {
+  width: 50%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+main#register .content div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main#register .content div:first-child form h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+main#register .content div:first-child form label,
+main#register .content div:first-child form label span {
+  display: block;
+}
+
+main#register .content div:first-child form label input:not([type="submit"]) {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+main#register .content div:first-child form label span {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+main#register .content div:first-child form input[type="submit"]{
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding:0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ff8000e6;
+  border: 2px solid #ff8000e6;
+  transition: all ease-in 0.1s;
+}
+
+main#register .content div:first-child form input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+main#register .content {
+  height: 90%;
+}
+
+main#register .content div:last-child h1,
+main#register .content div:last-child h2 {
   text-align: center;
 }
